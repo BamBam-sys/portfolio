@@ -12,7 +12,14 @@ const ProjectCard = ({ project: { name, link, tools, image } }) => {
           ))}
         </div>
         <div className="inline-flex items-center gap-[.5rem] mt-[1rem] hover:text-linkColor transition cursor-pointer ">
-          <p className="text-[1.3rem] ">view project</p>
+          <a
+            href={link}
+            target="_blank"
+            className="text-[1.3rem] "
+            rel="noreferrer"
+          >
+            view project
+          </a>
           <BiLink className="text-[1.5rem]" />
         </div>
       </div>
