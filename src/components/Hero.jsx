@@ -1,4 +1,4 @@
-import bams from '../assets/bambam.png';
+import bams from '../assets/bambam.JPG';
 import {
   BiLogoGithub,
   BiLogoLinkedin,
@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="relative shadow-sm bg-top  h-[30rem] w-full rounded-lg after:hidden sm:after:block after:content-[''] after:h-full after:w-full after:border-[1.5rem] after:border-linkColor after:border-opacity-70 after:absolute after:rounded-lg after:translate-x-[10%] after:translate-y-[-12%] hover:after:translate-x-[0] hover:after:translate-y-[-0] after:z-[-1] after:transition after:duration-300"
+        className="relative shadow-sm h-[40rem] w-full rounded-lg after:hidden sm:after:block after:content-[''] after:h-full after:w-full after:border-[1.5rem] after:border-linkColor after:border-opacity-70 after:absolute after:rounded-lg after:translate-x-[10%] after:translate-y-[-12%] hover:after:translate-x-[0] hover:after:translate-y-[-0] after:z-[-1] after:transition after:duration-300 bg-cover bg-top "
         style={{ backgroundImage: `url(${bams})` }}
       ></div>
     </div>
